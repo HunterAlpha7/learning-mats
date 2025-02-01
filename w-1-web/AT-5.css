@@ -22,9 +22,9 @@
     width: 33%;
     height: 50%;
     justify-content: center;
-    background-color: blue;
+    /* background-color: blue; */
     flex-direction: row;
-    margin: auto 1%;
+    margin: 0 auto;
 }
 
 .subbox1 {
@@ -48,15 +48,18 @@
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    height: 100%;
+    /* height: 10%; */
     flex-direction: column;
     color: white;
+    /* contain: content; */
+    /* background-color: aquamarine; */
 }
 
 .subbox4 {
     display: flex;
-    justify-content: center;
-    height: 100%
+    justify-content: left;
+    flex-direction: column;
+    height: 10%
 }
 
 .logo {
