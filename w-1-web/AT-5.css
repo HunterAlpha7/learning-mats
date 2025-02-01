@@ -52,6 +52,11 @@
     flex-direction: column;
 }
 
+.subbox4 {
+    display: flex;
+    justify-content: center;
+}
+
 .logo {
-    height: 10px;
+    height: 30%;
 }
