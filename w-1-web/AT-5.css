@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 90%;
+    background-color: #0e0e0e;
+    margin: 0 auto;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 33%;
+    background-color: red;
+    flex-direction: column;
+    margin: 0 1%;
+}
+
+.box2 {
+    display: flex;
+    width: 33%;
+    height: 50%;
+    justify-content: center;
+    background-color: blue;
+    flex-direction: row;
+    margin: 0 1%;
+}
+
+.subbox1 {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    background-color: aliceblue;
+}
+
+.subbox2 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    height: 100%;
+    flex-direction: row;
+}
+
+.subbox3 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
