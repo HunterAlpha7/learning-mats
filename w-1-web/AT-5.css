@@ -9,12 +9,12 @@
 
 .box1 {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     height: 50%;
     width: 33%;
-    background-color: red;
+    /* background-color: red; */
     flex-direction: column;
-    margin: 0 1%;
+    margin: auto 1%;
 }
 
 .box2 {
@@ -24,16 +24,16 @@
     justify-content: center;
     background-color: blue;
     flex-direction: row;
-    margin: 0 1%;
+    margin: auto 1%;
 }
 
 .subbox1 {
     display: flex;
-    margin: 10px auto;
-    justify-content: center;
+    margin: 10px;
+    justify-content: left;
     height: 100%;
     color: white;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 
 .subbox2 {
@@ -50,4 +50,8 @@
     justify-content: center;
     height: 100%;
     flex-direction: column;
+}
+
+.logo {
+    height: 10px;
 }
